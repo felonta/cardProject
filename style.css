@@ -104,16 +104,17 @@ p {
     display: flex;
   }
   .container .card ul li {
+    text-transform: uppercase;
     margin-right: 30px;
-    font-size: 13px;
+    font-size: 0.9375em;
   }
 
-  .container .card ul li span {
+  .container .card ul li  span {
     display: block;
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-weight: 700;
     font-family: "Lexend Deca", sans-serif;
-    font-size: 24px;
+    font-size: 1.5em;
     margin-bottom: 3px;
   }
 }
@@ -124,7 +125,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 940px;
   }
 
   .container .card:nth-child(2) {
