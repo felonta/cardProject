@@ -1,0 +1,139 @@
+body,
+p,
+h1,
+ul,
+li {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #090B1A;
+}
+
+p {
+  font-size: 0.9375em;
+  line-height: 1.6;
+}
+.container {
+  background-color: #1B1938;
+  color: #fff;
+  margin: 50px 20px;
+  padding: 0 0 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container .image {
+  background: url(/img/img-head.jpg) no-repeat center/cover;
+  height: 400px;
+  border-radius: 10px 10px 0 0;
+}
+.container .image .overlay {
+  background-color: rgba(172, 92, 219, 60%);
+  height: 400px;
+  border-radius: 10px 10px 0 0;
+}
+
+.container .card h1 {
+  padding: 0 20px;
+  margin: 20px 0 10px;
+  line-height: 1.4;
+  font-family: "lexend Deca", sans-serif;
+}
+
+.container .card  h1 span {
+  color: #AA5CDB;
+}
+
+.container .card p {
+  color: rgba(255, 255, 255, 39%);
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.container .card ul li {
+  color: rgba(255, 255, 255, 39%);
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.container .card ul li span {
+  color: #fff;
+  display:  block;
+  text-transform: lowercase;
+  font-weight: 700;
+  font-family: "lexend Deca", sans-serif;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    text-align: left;
+  }
+
+  .container .image {
+    background: url("/img/img-head.jpg") no-repeat center/cover;
+    min-width: 50%;
+    border-radius: 0 10px 10px 0;
+  }
+
+  .container .image .overlay {
+    background-color: rgba(172, 92, 219, 60%);
+    height: 400px;
+    border-radius: 0 10px 10px 0;
+  }
+
+  .container .card ul {
+    padding-left: 20px;
+    display: flex;
+  }
+  .container .card ul li {
+    margin-right: 30px;
+    font-size: 13px;
+  }
+
+  .container .card ul li span {
+    display: block;
+    text-transform: lowercase;
+    font-weight: 700;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 24px;
+    margin-bottom: 3px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .container .card:nth-child(2) {
+    padding: 0 30px;
+  }
+
+  .container .card p {
+    margin-bottom: 50px;
+  }
+}
+
+
