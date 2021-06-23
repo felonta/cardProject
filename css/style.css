@@ -35,7 +35,7 @@ p {
 }
 
 .container .image {
-  background: url(/img/img-head.jpg) no-repeat center/cover;
+  background: url("img/img-head-mobile.jpg") no-repeat center/cover;
   height: 400px;
   border-radius: 10px 10px 0 0;
 }
@@ -88,7 +88,7 @@ p {
   }
 
   .container .image {
-    background: url("/img/img-head.jpg") no-repeat center/cover;
+    background: url("/img/img-head-pg.jpg") no-repeat center/cover;
     min-width: 50%;
     border-radius: 0 10px 10px 0;
   }
